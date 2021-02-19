@@ -33,7 +33,7 @@ const App: () => React$Node = () => {
 
       <TextIncreaser
         style={{fontSize: 30, marginVertical: 10}}
-        numberText={numberText}
+        numberTextReceived={numberText}
       />
 
       <View
