@@ -21,6 +21,7 @@ import TextIncreaser from './TextIncreaser';
 const App: () => React$Node = () => {
   const [number, setNumber] = useState('');
   const [numberText, setNumberText] = useState();
+  //
 
   return (
     <View style={{flex: 1, alignItems: 'center'}}>
